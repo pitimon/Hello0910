@@ -2,7 +2,6 @@ version: '3.3'
 services:
   test-volume:
     image: rancher/hello-world:latest
-#    image: rancher/cowsay
     networks:
      - webproxy
     logging:
