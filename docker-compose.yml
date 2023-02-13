@@ -10,7 +10,7 @@ services:
         "max-size": "10m"
         "max-file": "5"
     deploy:
-      replicas: 1
+      replicas: 20
       labels:
         - traefik.docker.network=webproxy
         - traefik.enable=true
